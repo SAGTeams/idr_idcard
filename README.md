@@ -2,7 +2,16 @@
 
 ## CONTOH GAMBAR
 
+* Menu KTP
 ![image (6)](https://github.com/user-attachments/assets/c40e717d-2a34-4e5d-a312-3db24adfde14)
+
+* Kartu Keterangan Warga Baru
+
+ ![image (8)](https://github.com/user-attachments/assets/abc22452-9593-40b4-9c5f-abf6d9808ebe)
+
+* Kartu Tanda Penduduk
+
+![image (7)](https://github.com/user-attachments/assets/f03840d6-b233-4a21-99d9-05140ed7458d)
 
 ## SCRIPT ASLI
 **[Dari Sini](https://github.com/alp1x/um-idcard-menu)** 
