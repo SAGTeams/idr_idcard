@@ -1,5 +1,8 @@
 --------------------------[[INI SCRIPT KTP INDORAELITY YANG SUDAH DIMODIFIKASI]]-------------------------
 
+## CONTOH GAMBAR
+https://r2.fivemanage.com/pub/hablza9a5gqg.png
+
 ## SCRIPT ASLI
 https://github.com/alp1x/um-idcard-menu
 
@@ -25,6 +28,7 @@ https://github.com/alp1x/um-idcard-menu
 * **[ox_inventory](https://github.com/overextended/ox_inventory/releases)** (ESX or QBCore)
 
 -------------------------------[[ITEM OX INVENTORY]]-------------------------------
+```
 ['id_card'] = {
         label = 'KTP',
         weight = 0,
@@ -134,7 +138,7 @@ https://github.com/alp1x/um-idcard-menu
 			}
 		},
 	},
-
+```
 ## Contributors 
 <a href="https://github.com/alp1x/um-idcard/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=alp1x/um-idcard" />
