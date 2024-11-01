@@ -1,8 +1,6 @@
-![image (6)](https://github.com/user-attachments/assets/0ac7c681-8e4c-443c-9e26-dff191787e38)--------------------------[[INI SCRIPT KTP INDORAELITY YANG SUDAH DIMODIFIKASI]]-------------------------
+--------------------------[[INI SCRIPT KTP INDORAELITY YANG SUDAH DIMODIFIKASI]]-------------------------
 
 ## CONTOH GAMBAR
-
-
 
 ![image (6)](https://github.com/user-attachments/assets/c40e717d-2a34-4e5d-a312-3db24adfde14)
 
