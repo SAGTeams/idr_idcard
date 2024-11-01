@@ -4,12 +4,12 @@
 https://r2.fivemanage.com/pub/hablza9a5gqg.png
 
 ## SCRIPT ASLI
-https://github.com/alp1x/um-idcard-menu
+**[Darisini](https://github.com/alp1x/um-idcard-menu)** 
 
 ### Setup
 * Pastikan Anda memiliki item dalam **Config.Licenses**, jika tidak, tambahkan saja.
 * Setelah itu **[ox_lib](https://github.com/overextended/ox_lib/releases)** Dan **[MugShotBase64](https://github.com/BaziForYou/MugShotBase64)** 
-* Target : ox_target >>> https://github.com/overextended/ox_target
+* Target : ox_target **[ox_target](https://github.com/overextended/ox_target)**
 * `ensure idr_idcard`
 * 📄 **[QBCore Starter Setup](https://alp1x.github.io/um-idcard/Starter%20Setup/qbcore)**
 * 📄 **[ESX Starter Setup](https://alp1x.github.io/um-idcard/Starter%20Setup/esx)**
