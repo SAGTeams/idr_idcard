@@ -34,9 +34,15 @@
 
 ### Bagaimana cara menambahkan kartu identitas dengan metadata?
 
-```exports['idr_idcard']:CreateMetaLicense(source, string or table)```
-```exports['idr_idcard']:CreateMetaLicense(source, 'id_card')```
-```exports['idr_idcard']:CreateMetaLicense(source, {'id_card','driver_licensea','weaponlicense','kartuketeranganwargabaru'})```
+```
+exports['idr_idcard']:CreateMetaLicense(source, string or table)
+```
+```
+exports['idr_idcard']:CreateMetaLicense(source, 'id_card')
+```
+```
+exports['idr_idcard']:CreateMetaLicense(source, {'id_card','driver_licensea','weaponlicense','kartuketeranganwargabaru'})
+```
 
 ### Inventory
 * **[ox_inventory](https://github.com/overextended/ox_inventory/releases)** (ESX or QBCore)
