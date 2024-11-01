@@ -3,40 +3,137 @@
 ## SCRIPT ASLI
 https://github.com/alp1x/um-idcard-menu
 
-# ⚠️ If you are having problems with um-idcard, you can wait for an update or alternatively use the following scripts suggested by um
-* [bl_idcard](https://github.com/Byte-Labs-Studio/bl_idcard)
-* [five_idcard](https://github.com/cinquina/five-idcard)
-
-# um-idcard | old (~~qb-idcard~~)
-<sup><b>qb-idcard</b> has been updated and renamed as <b>um-idcard</b>, and it is now compatible with <b>ESX</b> and </b><b>QBCore</b> and <b>Qbox</b></sup> 
-
-
 ### Setup
-* Make sure you have the items in **Config.Licenses**, otherwise add them.
-* After **[ox_lib](https://github.com/overextended/ox_lib/releases)** and **[MugShotBase64](https://github.com/BaziForYou/MugShotBase64)** 
-* `ensure um-idcard` or `ensure [um] folder`
+* Pastikan Anda memiliki item dalam **Config.Licenses**, jika tidak, tambahkan saja.
+* Setelah itu **[ox_lib](https://github.com/overextended/ox_lib/releases)** Dan **[MugShotBase64](https://github.com/BaziForYou/MugShotBase64)** 
+* `ensure idr_idcard`
 * 📄 **[QBCore Starter Setup](https://alp1x.github.io/um-idcard/Starter%20Setup/qbcore)**
 * 📄 **[ESX Starter Setup](https://alp1x.github.io/um-idcard/Starter%20Setup/esx)**
 
-### Usage
-* Just use the item
-* If there is someone near you, it will be visible to them, otherwise only you will see it.
-* It takes a mugshot of you on the first use of the item and saves it in metadata.
+### CARA MENGGUNAKANNYA
+* Cukup gunakan item tersebut
+* Jika ada seseorang di dekat Anda, item tersebut akan terlihat oleh mereka, jika tidak, hanya Anda yang akan melihatnya.
+* Item tersebut mengambil foto Anda saat pertama kali menggunakan item tersebut dan menyimpannya dalam metadata.
 
-### How to create a custom identity card?
+### Bagaimana cara membuat kartu identitas khusus?
 * **[um-idcard-maker](https://alp1x.github.io/um-idcard-maker/)**
 
-### How can add an identity card with metadata?
+### Bagaimana cara menambahkan kartu identitas dengan metadata?
 * **[Exports](https://alp1x.github.io/um-idcard/exports)**
-
-### Optional
-* **[um-idcard-menu](https://github.com/alp1x/um-idcard-menu)**
 
 ### Inventory
 * **[ox_inventory](https://github.com/overextended/ox_inventory/releases)** (ESX or QBCore)
-* **[qb-inventory or lj-inventory ](https://github.com/qbcore-framework/qb-inventory)** (QBCore)
 
-
+-------------------------------[[ITEM OX INVENTORY]]-------------------------------
+['id_card'] = {
+        label = 'KTP',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Kartu Tanda Kependudukan Indoreality",
+        client = {image = 'idcard.png'}
+    },
+    ['driver_licensea'] = {
+        label = 'SIM A',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Surat Izin Mengemudi Mobil",
+        client = {image = 'driverlicense.png'},
+        degrade = 30 * 24 * 60
+    },
+	['driver_licenseb'] = {
+        label = 'SIM B',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Surat Izin Mengemudi Truck/Bus",
+        client = {image = 'driverlicense.png'},
+        degrade = 30 * 24 * 60
+    },
+	['driver_licensec'] = {
+        label = 'SIM C',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Surat Izin Mengemudi Motor",
+        client = {image = 'driverlicense.png'},
+        degrade = 30 * 24 * 60
+    },
+    ['weaponlicense'] = {
+        label = 'License Senjata',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Licensi Senjata Indoreality",
+        client = {image = 'weapon_license.png'},
+        degrade = 30 * 24 * 60
+    },
+    ['kartu_tanda_anggota'] = {
+        label = 'Kartu Tanda Anggota',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Kartu Tanda Anggota Kepolisian Indoreality",
+        client = {image = 'kartu_tanda_anggota.png'}
+    },
+	['licensi_berburu'] = {
+		label = 'Licensi Berburu',
+		weight = 0,
+		stack = false,
+		close = true,
+		description = 'Licensi Berburu Indoreality',
+		client = {image = 'licensi_berburu.png'},
+        degrade = 30 * 24 * 60
+  	},
+	['lawyerpass'] = {
+        label = 'Lawyer Pass',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Your Description",
+        client = {image = 'lawyerpass.png'}
+    },
+    ['kartuketeranganwargabaru'] = {
+          label = 'KARTU KETERANGAN WARGA BARU',
+          weight = 1,
+          stack = false,
+          description = 'Berlaku selama 3 hari & KKWB ini akan tidak berlaku jika nama bersangkutan diketahui melakukan tindakan kriminal.',
+          client = {image = 'kartuketeranganwargabaru.png'},
+          degrade = 3 * 24 * 60,
+		  decay = true,
+		  close = true,
+		  buttons = {
+			{
+				label = 'Gratis Perban 10 & 5 Obat Strees (Hanya Dapat Claim 1X)',
+				group = 'Benefit',
+				action = function(slot)
+					print('GRATIS PERBAN 10 PCS DAN 5 PCS OBAT STRESS (HANYA DAPAT DI CLAIM 1X SAJA).')
+				end
+			},
+			{
+				label = 'Gratis 5x Repair Ataupun Towing',
+				group = 'Benefit',
+				action = function(slot)
+					print('GRATIS 5 KALI PELAYANAN REPAIR ATAUPUN TOWING.')
+				end
+			},
+			{
+				label = 'Gratis 2 Paket Besar (Hanya Dapat Claim 1X)',
+				group = 'Benefit',
+				action = function(slot)
+					print('GRATIS 2 PAKET BESAR (HANYA DAPAT DI CLAIM 1X SAJA).')
+				end
+			},
+			{
+				label = 'Diberikan Perlindungan Dalam Segala Jenis Tindak Kriminal Selama KKWB Berlaku',
+				group = 'Benefit',
+				action = function(slot)
+					print('DIBERIKAN PERLINDUNGAN DALAM SEGALA JENIS TINDAK KRIMINAL SELAMA KKWB BERLAKU.')
+				end
+			}
+		},
+	},
 
 ## Contributors 
 <a href="https://github.com/alp1x/um-idcard/graphs/contributors">
