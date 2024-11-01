@@ -7,7 +7,7 @@
 ## SCRIPT ASLI
 **[Dari Sini](https://github.com/alp1x/um-idcard-menu)** 
 
-### Setup
+### TUTORIAL
 * Pastikan Anda memiliki item dalam **Config.Licenses**, jika tidak, tambahkan saja.
 * Setelah itu **[ox_lib](https://github.com/overextended/ox_lib/releases)** Dan **[MugShotBase64](https://github.com/BaziForYou/MugShotBase64)** 
 * Target : ox_target **[ox_target](https://github.com/overextended/ox_target)**
