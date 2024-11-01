@@ -1,10 +1,13 @@
---------------------------[[INI SCRIPT KTP INDORAELITY YANG SUDAH DIMODIFIKASI]]-------------------------
+![image (6)](https://github.com/user-attachments/assets/0ac7c681-8e4c-443c-9e26-dff191787e38)--------------------------[[INI SCRIPT KTP INDORAELITY YANG SUDAH DIMODIFIKASI]]-------------------------
 
 ## CONTOH GAMBAR
-https://r2.fivemanage.com/pub/hablza9a5gqg.png
+
+
+
+![image (6)](https://github.com/user-attachments/assets/c40e717d-2a34-4e5d-a312-3db24adfde14)
 
 ## SCRIPT ASLI
-**[Darisini](https://github.com/alp1x/um-idcard-menu)** 
+**[Dari Sini](https://github.com/alp1x/um-idcard-menu)** 
 
 ### Setup
 * Pastikan Anda memiliki item dalam **Config.Licenses**, jika tidak, tambahkan saja.
@@ -20,7 +23,7 @@ https://r2.fivemanage.com/pub/hablza9a5gqg.png
 * Item tersebut mengambil foto Anda saat pertama kali menggunakan item tersebut dan menyimpannya dalam metadata.
 
 ### Bagaimana cara membuat kartu identitas khusus?
-* **[um-idcard-maker](https://alp1x.github.io/um-idcard-maker/)**
+* **[create-maker](https://alp1x.github.io/um-idcard-maker/)**
 
 ### Bagaimana cara menambahkan kartu identitas dengan metadata?
 * **[Exports](https://alp1x.github.io/um-idcard/exports)**
