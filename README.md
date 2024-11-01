@@ -33,7 +33,10 @@
 * **[create-maker](https://alp1x.github.io/um-idcard-maker/)**
 
 ### Bagaimana cara menambahkan kartu identitas dengan metadata?
-* **[Exports](https://alp1x.github.io/um-idcard/exports)**
+
+```exports['idr_idcard']:CreateMetaLicense(source, string or table)```
+```exports['idr_idcard']:CreateMetaLicense(source, 'id_card')```
+```exports['idr_idcard']:CreateMetaLicense(source, {'id_card','driver_licensea','weaponlicense','kartuketeranganwargabaru'})```
 
 ### Inventory
 * **[ox_inventory](https://github.com/overextended/ox_inventory/releases)** (ESX or QBCore)
